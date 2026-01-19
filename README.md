@@ -9,7 +9,7 @@ The experiment data, on which the figures from the paper (partially cropped for 
 The maneuvers *lelar_base_agent/30.10.2025 10.40-10.50/*, *lelar_flight_agent_sim2real_discrepancies/08.12.2025 22.19-22.25/* and *lelar_flight-agent/13.12.2025 11.28-11.34/* and the data from *rw_speed_spike* are based on live-telemetry. The maneuvers *lelar_flight_agent/15.12.2025 09.31-09.49/*, *lelar_flight_agent/17.12.2025 20.46-21.01/*, *pd/15.12.2025 21.50-22.05/* and *pd/15.12.2025 22.30-22.48/* are based on offline-telemetry.
 
 The maneuvers *sim/repeated_maneuvers/* and *sim/quaternion_list_maneuvers/* contain simulated data modeled after the maneuvers from *lelar_flight_agent/17.12.2025 20.46-21.01/* and *lelar_flight_agent/15.12.2025 09.31-09.49/* respectively.  
-*Note: The simulation uses Modified Rodrigues Parameters (MRPs) internally and maps the attitude to the representation where $q_0 > 0$. This is physically identical to the in-orbit representation, as quaternions $q$ and $-q$ describe the same orientation.*
+*Note: The simulation uses Modified Rodrigues Parameters (MRPs) internally and maps the attitude to the representation where the scalar quaternion component q0 is positive. This is physically identical to the in-orbit representation, as quaternions q and -q describe the same orientation.*
 
 ## Authors 
 
