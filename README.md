@@ -1,12 +1,15 @@
-# LeLaR In-Orbit Data
+# LeLaR In-Orbit and Simulation Data
 
-This repository contains the telemetry data from the in-orbit experiments described in the paper **“LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Controller”**.  
+This repository contains the telemetry (and simulation) data from the in-orbit experiments described in the paper **“LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Controller”**.  
 Initial preprint available on arXiv: [https://arxiv.org/abs/2512.19576](https://arxiv.org/abs/2512.19576)  
 A link to the final paper, as well as a license, will be added once available.
 
 The experiment data, on which the figures from the paper (partially cropped for illustration purposes) are based, can be found in the folder *maneuver_data*. The data has a nominal time resolution of 2 seconds and is provided in the form it was extracted from the InnoCube mission's Grafana dashboard.
 
 The maneuvers *lelar_base_agent/30.10.2025 10.40-10.50/*, *lelar_flight_agent_sim2real_discrepancies/08.12.2025 22.19-22.25/* and *lelar_flight-agent/13.12.2025 11.28-11.34/* and the data from *rw_speed_spike* are based on live-telemetry. The maneuvers *lelar_flight_agent/15.12.2025 09.31-09.49/*, *lelar_flight_agent/17.12.2025 20.46-21.01/*, *pd/15.12.2025 21.50-22.05/* and *pd/15.12.2025 22.30-22.48/* are based on offline-telemetry.
+
+The maneuvers *sim/repeated_maneuvers/* and *sim/quaternion_list_maneuvers/* contain simulated data modeled after the maneuvers from *lelar_flight_agent/17.12.2025 20.46-21.01/* and *lelar_flight_agent/15.12.2025 09.31-09.49/* respectively.  
+*Note: The simulation uses Modified Rodrigues Parameters (MRPs) internally and maps the attitude to the representation where $q_0 > 0$. This is physically identical to the in-orbit representation, as quaternions $q$ and $-q$ describe the same orientation.*
 
 ## Authors 
 
