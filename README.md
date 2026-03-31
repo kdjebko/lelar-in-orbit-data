@@ -1,8 +1,8 @@
 # LeLaR In-Orbit and Simulation Data
 
 This repository contains the telemetry (and simulation) data from the in-orbit experiments described in the paper **“LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Controller”**.  
-Initial preprint available on arXiv: [https://arxiv.org/abs/2512.19576](https://arxiv.org/abs/2512.19576)  
-A link to the final paper, as well as a license, will be added once available.
+Published in IEEE Access: [https://ieeexplore.ieee.org/document/11457578](https://ieeexplore.ieee.org/document/11457578) (DOI: [10.1109/ACCESS.2026.3678816](https://doi.org/10.1109/ACCESS.2026.3678816))  
+Preprint available on arXiv: [https://arxiv.org/abs/2512.19576](https://arxiv.org/abs/2512.19576)
 
 The experiment data, on which the figures from the paper (partially cropped for illustration purposes) are based, can be found in the folder *maneuver_data*. The data has a nominal time resolution of 2 seconds and is provided in the form it was extracted from the InnoCube mission's Grafana dashboard.
 
